@@ -1,0 +1,56 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    /* gap: 1vw; */
+    height: 100%;
+    background-color: rgb(185,1,98);
+    width: 60vw;
+}
+.navbar-item{
+    padding: 2vw;
+    background-color: white;
+    color: white;
+    /* border-radius: 5px; */
+    cursor: pointer;   
+    text-align: center; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    /* transition: height 3s ease-in; */
+}
+.navbar-item a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-item::after{
+    content:"";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+}
+.navbar-item:hover {
+    height: calc(100% + 1.5vh)
+    
+}
+.navbar-item:hover::after{
+    width: 100%;
+    transition: width 0.5s ease;
+}
+#home-color{
+    background-color: rgb(244,191,0);
+}
+#about-me-color{
+    background-color: rgb(247,148,29);
+}
+#skills-color{
+    background-color: rgb(242,101,34);
+}
+#experience-color{
+    background-color: rgb(237,28,36);
+}
+#education-color{
+    background-color: rgb(225,3,55);
+}
+#contact-color{
+    background-color: rgb(185,1,98);
+}

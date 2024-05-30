@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    overflow-x: hidden;
+}
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.homepage .top-homepage{
+    height: 90vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.homepage header{
+    display: flex;
+    height: 11vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: start;
+    /* padding-bottom: 1vh; */
+    /* border: 2px solid blue; */
+    
+}
+
+.homepage header a  {
+    text-decoration: none;
+    /* padding-top: 1vh; */
+    width: 40vw;
+    
+}
+.homepage .intro{
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid yellow; */
+    position: relative;
+}
+.homepage .banner{
+    height: 90vh;
+    width: 50vw;
+    /* border: 2px solid black; */
+}
+.typewriter-element{
+    height: 10vh;
+    width: 30vw;
+
+}
+.text-box{
+    /* border: 2px solid   green; */
+    /* position: absolute; */
+    /* top: 40%; */
+    margin-top: 35vh ;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0vh; */
+    padding-left: 3vw;
+    /* padding-bottom: 1vh; */
+}
+.intro img{
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    z-index: 0;
+    animation: moveClouds 100s linear infinite;
+}
+#hello{
+    font-size: 72px;
+    margin-bottom: 0;
+    font-family: "Sacramento", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color:#2d3038;
+    text-align: left;
+    padding-left: 7vw;
+}
+.banner img{
+    height: 85vh;
+    width:45vw;
+    margin-top: 7vh;
+    z-index: 0;
+    
+}
+@keyframes moveClouds {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-80%); }
+}
+.dev-button{
+    font-size: large;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 0.2vh;
+    background-color: black;
+    color: white;
+}
+#name-text{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #2d3038;
+    font-size: 90px;
+    line-height: 80px;
+    padding-left: 6vw;
+    margin-bottom: 3vh;
+    text-align: left;
+}
+.git-link img{
+    /* padding-top: 3vh; */
+    height: 12vh;
+    width: 50vw;
+    object-fit: cover;
+    
+}
+.git-link{
+    background-color: rgb(47, 42, 42);
+}
+
