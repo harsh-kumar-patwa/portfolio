@@ -5,6 +5,9 @@
     height: 100%;
     background-color: rgb(185,1,98);
     width: 60vw;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 .navbar-item{
     padding: 2vw;
@@ -20,6 +23,7 @@
 .navbar-item a{
     color: white;
     text-decoration: none;
+    
 }
 .navbar-item::after{
     content:"";

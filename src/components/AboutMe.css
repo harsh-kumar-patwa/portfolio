@@ -1,0 +1,60 @@
+.about-main-page{
+    height: 90vh;
+    width: 99vw;
+    display: flex;
+    /* flex-direction: column; */
+    border: 2px solid black;
+}
+.about-h1{
+    height: 89vh;
+    width: 30vw;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.description-main{
+    height: 89vh;
+    width: 70vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    font-family: montserrat, sans-serif;
+
+    text-align: left;
+    line-height: 4vh;
+    gap: 5vh;
+}
+.about-h1 div{
+    height: 9vh;
+    width: 10vw;
+    border: 2px solid rgb(250, 237, 239);
+    background-color: rgb(250, 237, 239);
+    border-radius: 50%;
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    z-index: 0;
+}
+.about-h1 h1{
+    position: absolute;
+    top: 16vh;
+    left: 14.5vw;
+    z-index: 0;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300;
+    font-size: 5vh;
+}
+.about-me-details{
+    width: 100%;
+    padding-left: 7vw;
+    
+}
+.about-me-description{
+    padding-left: 7vw ;
+    padding-right: 7vw;
+}
+

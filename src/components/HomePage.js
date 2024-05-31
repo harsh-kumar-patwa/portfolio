@@ -6,7 +6,7 @@ import banner from "../assets/banner.jpg";
 import harsh from "../assets/Harsh Kumar.png";
 function HomePage(){
     return (
-        <div className="homepage">
+        <div className="homepage" id="homepage">
             <div className="top-homepage">
                 <div className="intro">
                     <img src={clouds} alt="clouds"></img>
