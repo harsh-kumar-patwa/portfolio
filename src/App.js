@@ -38,15 +38,15 @@ const my_details = [(
   </span>
 )];
 
-let skillsMapArray = [{skillName:"Java"},
-                  {skillName:"Python"},
-                  {skillName:"Mysql"},
-                  {skillName:"DSA"},
-                  {skillName:"HTML"},
-                  {skillName:"CSS"},
-                  {skillName:"Javascript"},
-                  {skillName:"React"},
-                  {skillName:"Spring Boot"}
+let skillsMapArray = [{skillName:"Java",color:"red",details:"I'm skilled in Java programming with 1 years of experience. I've worked on various projects, like Music Store Management System, Payment Link Generator ,Command Line Image Editor ,Product Service etc. I'm familiar with frameworks like Spring and Hibernate and creating RESTful web services."},
+                  {skillName:"Python",color:"#3674A5",details:"I've learned data analysis with Python and completed 2-3 projects in this field. I've also created a Python-based SVD image compressor and a web scraper. These experiences have strengthened my Python skills and problem-solving abilities."},
+                  {skillName:"Mysql",color:"#FEA500",details:"I've just started learning MySQL and practicing writing queries. I'm excited to understand how to manage databases better and use MySQL to work with data effectively."},
+                  {skillName:"DSA",color:"#rgb(48,185,253)",details:"I've been learning lots about Data Structures and Algorithms (DSA). It's all about organizing and manipulating data efficiently. I've solved over 300 problems on Scaler, which has really helped me understand how to solve different kinds of puzzles and challenges. DSA is like the foundation of my tech skills, helping me solve problems step by step."},
+                  {skillName:"HTML",color:"#000000",details:"I've been learning HTML, which stands for HyperText Markup Language. It's the backbone of web development, used to create the structure and content of web pages. I've grasped the basics, like creating headings, paragraphs, lists, and links. HTML allows me to build the foundation of a website and understand how content is structured on the web."},
+                  {skillName:"CSS",color:"#F16529",details:"I've been diving into CSS, or Cascading Style Sheets, which is all about making websites look good. It lets me control the colors, fonts, layouts, and overall appearance of web pages. With CSS, I can give a website its unique style and design, making it visually appealing and user-friendly."},
+                  {skillName:"Javascript",color:"#FDDE35",details:"I've created several projects using HTML, CSS, and JavaScript, including clones of popular websites, a personal portfolio, and even a classic game like Snake. These projects have helped me reinforce my understanding of web development fundamentals and showcase my creativity in building interactive and visually appealing websites."},
+                  {skillName:"React",color:"#0279FD",details:"I've recently started learning React, a popular JavaScript library for building user interfaces. I've begun by creating my portfolio and exploring techniques to optimize websites for better performance. It's exciting to delve into React's component-based architecture and learn how to create dynamic, efficient web applications."},
+                  {skillName:"Spring Boot",color:"#6DB33F",details:"In Spring Boot, I've built a variety of applications, including a payment link generator using a third-party API, a product service, and a music store management system. The music store system includes services for customer management, employee management, inventory tracking, and more. "}
                 ];
 
 function App() {

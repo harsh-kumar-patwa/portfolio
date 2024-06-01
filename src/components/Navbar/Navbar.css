@@ -12,16 +12,18 @@
     padding: 2vw;
     background-color: white;
     color: white;
-    /* border-radius: 5px; */
-    cursor: pointer;   
+    /* border-radius: 5px; */   
     text-align: center; 
     font-family: "Montserrat", sans-serif;
     font-weight: 550;
+    z-index: 3;
+
     /* transition: height 3s ease-in; */
 }
 .navbar-item a{
     color: white;
     text-decoration: none;
+    
     
 }
 .navbar-item::after{

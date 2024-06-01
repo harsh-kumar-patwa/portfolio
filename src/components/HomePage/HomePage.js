@@ -8,9 +8,13 @@ import React,{useState,useEffect} from "react";
 function HomePage(){
 
     const [isScrolled,setIsScrolled]=useState(false);
-    const handleNavClick = ()=>{
+    const handleNavClick = (e)=>{
         // console.log('Navbar button clicked');
-        setIsScrolled(true);
+        if(e.target.href){
+            if(e.target.href.endsWith("#homepage") && window.scrollY===0){
+                setIsScrolled(false);}
+            else{setIsScrolled(true);}
+        }
     }
     useEffect(()=>{
         const handleScroll = () => {
