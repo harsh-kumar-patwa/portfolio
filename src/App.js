@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
+import SkillPage from './components/SkillsPage';
+// import spriteLogo from './assets/logos.png'; 
+
 
 function MyComponent() {
   const my_description = `Hi there, I'm <strong>Harsh Kumar</strong>! 
@@ -35,6 +38,17 @@ const my_details = [(
   </span>
 )];
 
+let skillsMapArray = [{skillName:"Java"},
+                  {skillName:"Python"},
+                  {skillName:"Mysql"},
+                  {skillName:"DSA"},
+                  {skillName:"HTML"},
+                  {skillName:"CSS"},
+                  {skillName:"Javascript"},
+                  {skillName:"React"},
+                  {skillName:"Spring Boot"}
+                ];
+
 function App() {
   return (
     <div className="App">
@@ -43,7 +57,10 @@ function App() {
           
           MyDescription={MyComponent()} 
           
-          AboutMeDetails={my_details}/>
+          AboutMeDetails={my_details}
+      />
+      <SkillPage skillsMap={skillsMapArray}/>
+
     </div>
   );
 }

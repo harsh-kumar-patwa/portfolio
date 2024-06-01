@@ -5,8 +5,7 @@
     height: 100%;
     background-color: rgb(185,1,98);
     width: 60vw;
-    position: sticky;
-    top: 0;
+    
     z-index: 3;
 }
 .navbar-item{

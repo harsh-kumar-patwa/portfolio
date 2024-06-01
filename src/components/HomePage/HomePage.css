@@ -19,6 +19,7 @@
     width: 100vw;
     flex-direction: row;
     justify-content: start;
+    
     /* padding-bottom: 1vh; */
     /* border: 2px solid blue; */
     
@@ -122,4 +123,14 @@
 .git-link{
     background-color: rgb(47, 42, 42);
 }
+header {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
+header.sticky {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+}

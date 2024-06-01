@@ -4,7 +4,29 @@ import Navbar from "../Navbar";
 import clouds from "../../assets/clouds.png";
 import banner from "../../assets/banner.jpg";
 import harsh from "../../assets/Harsh Kumar.png";
+import React,{useState,useEffect} from "react";
 function HomePage(){
+
+    const [isScrolled,setIsScrolled]=useState(false);
+    const handleNavClick = ()=>{
+        // console.log('Navbar button clicked');
+        setIsScrolled(true);
+    }
+    useEffect(()=>{
+        const handleScroll = () => {
+            if (window.scrollY > 700) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    },[]);
+
     return (
         <div className="homepage" id="homepage">
             <div className="top-homepage">
@@ -20,9 +42,9 @@ function HomePage(){
                     <img src={banner} alt="banner"></img>
                 </div>
             </div>
-            <header>
+            <header className={isScrolled ? 'sticky':''}>
                 <a className="git-link" href="https://www.github.com/harsh-kumar-patwa"><img src={harsh} alt=""></img></a>
-                <Navbar/>
+                <Navbar onNavClick={handleNavClick}/>
             </header>
         </div>
     );

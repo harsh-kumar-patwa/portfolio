@@ -1,0 +1,43 @@
+.skils-main-page{
+    height: 90vh;
+    width: 99vw;
+    display: flex;
+    background-color: rgb(249,249,249);
+}
+.my-skills-h1{
+    width: 30vw;
+    /* border: 2px solid red; */
+    padding-top: 12vh;
+    padding-left: 10vw;
+}
+.my-skills-h1 h1{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 5vh;
+}
+.skills-main-container{
+    width: 70vw;
+    /* border : 2px solid blue; */
+    padding-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    padding-top:12vh ;
+    gap: 5vh;
+    align-items: start;
+
+}
+.skills-container-title{
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem
+}
+.skills-container{
+    width: 100%;
+    /* display: flex; */
+    /* gap: 2vw; */
+    align-items: start;
+}
+.skills-conatiner-and-details{
+    display: flex;
+    gap: 2vw;
+}
