@@ -1,9 +1,9 @@
-import TypeWriter from "./TypeWriter";
+import TypeWriter from "../TypeWriter";
 import "./HomePage.css";
-import Navbar from "./Navbar";
-import clouds from "../assets/clouds.png";
-import banner from "../assets/banner.jpg";
-import harsh from "../assets/Harsh Kumar.png";
+import Navbar from "../Navbar";
+import clouds from "../../assets/clouds.png";
+import banner from "../../assets/banner.jpg";
+import harsh from "../../assets/Harsh Kumar.png";
 function HomePage(){
     return (
         <div className="homepage" id="homepage">
