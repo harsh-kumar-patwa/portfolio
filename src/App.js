@@ -7,6 +7,11 @@ import EducationPage from './components/EducationPage';
 import scaler from './assets/scaler.png';
 import bits from './assets/bits.png';
 import grizzly from './assets/grizzly.png';
+import payment from './assets/payments.png';
+import image_generator from './assets/image-generator.jpeg';
+import music_store from './assets/music-store.jpeg';
+import snake from './assets/snake.jpg';
+import ProjectsPage from './components/ProjectsPage';
 
 
 function MyComponent() {
@@ -71,6 +76,28 @@ let educationList = [
     image:grizzly
   },
 ];
+let projects = [
+  {
+    name:"Music Store Management",
+    link:"https://github.com/harsh-kumar-patwa/MusicStoreManagement",
+    image:music_store
+  },
+  {
+    name:"Snake Game",
+    link:"https://harsh-kumar-patwa.github.io/snake-game/",
+    image:snake
+  },
+  {
+    name:"AI Image Generator",
+    link:"https://harsh-kumar-patwa.github.io/ai-image-generator/",
+    image:image_generator
+  },
+  {
+    name:"Payment Service",
+    link:"https://github.com/harsh-kumar-patwa/paymentService",
+    image:payment
+  }
+];
 
 function App() {
   return (
@@ -84,6 +111,7 @@ function App() {
       />
       <SkillPage skillsMap={skillsMapArray}/>
       <EducationPage educationList={educationList}/>
+      <ProjectsPage projects={projects}/>
 
     </div>
   );

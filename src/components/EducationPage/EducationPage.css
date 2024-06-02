@@ -1,7 +1,8 @@
 .education-main-container{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
+    padding-top:10vh ;
     /* border: 2px solid black; */
 }
 .education-h1{
