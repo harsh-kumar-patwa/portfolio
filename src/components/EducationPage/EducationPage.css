@@ -1,0 +1,47 @@
+.education-main-container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.education-h1{
+    width: 30vw;
+    /* border: 2px solid red; */
+    padding-top: 15vh;
+    padding-left: 15vw;
+    font-family: Montserrat, sans-serif;
+    font-size: 5vh;
+    font-weight: 400 ;
+}
+.education-cards-container{
+    width: 4vw;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    gap: 5vh;
+    align-items: start;
+    padding-left: 10vw;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    /* gap: 1vw; */
+    /* border: 2px solid black; */
+    height: 20vh;
+    width: 40vw;
+}
+
+.card-img{
+    height: 10vh;
+    width: auto;
+}
+.card-details{
+    text-align: start;
+    /* gap: 1vh; */
+    line-height: 3vh;
+    padding-left: 4vw;
+}

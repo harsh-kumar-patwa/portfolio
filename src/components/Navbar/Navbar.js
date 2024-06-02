@@ -7,8 +7,8 @@ function Navbar({onNavClick}){
                 <li className='navbar-item' id='home-color'><a onClick={onNavClick} href='#homepage'>Home</a></li>
                 <li className='navbar-item' id='about-me-color' onClick={onNavClick}><a href='#about-main-page'>About Me</a></li>
                 <li className='navbar-item' id='skills-color' onClick={onNavClick}><a href='#skills-main-page'>Skills</a></li>
-                <li className='navbar-item' id='experience-color' onClick={onNavClick}><a href='#'>Experience</a></li>
-                <li className='navbar-item' id='education-color' onClick={onNavClick}><a href='#'>Education</a></li>
+                <li className='navbar-item' id='education-color' onClick={onNavClick}><a href='#education-page'>Education</a></li>
+                <li className='navbar-item' id='projects-color' onClick={onNavClick}><a href='#'>Projects</a></li>
                 <li className='navbar-item' id='contact-color' onClick={onNavClick}><a href='#'>Contact</a></li>
             </ul>
         </nav>

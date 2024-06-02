@@ -1,8 +1,10 @@
 .skils-main-page{
-    height: 90vh;
+    height: 100vh;
     width: 99vw;
     display: flex;
     background-color: rgb(249,249,249);
+    padding-top: 10vh;
+    /* border: 2px solid black; */
 }
 .my-skills-h1{
     width: 30vw;

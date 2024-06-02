@@ -3,7 +3,10 @@ import './App.css';
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import SkillPage from './components/SkillsPage';
-// import spriteLogo from './assets/logos.png'; 
+import EducationPage from './components/EducationPage';
+import scaler from './assets/scaler.png';
+import bits from './assets/bits.png';
+import grizzly from './assets/grizzly.png';
 
 
 function MyComponent() {
@@ -48,6 +51,26 @@ let skillsMapArray = [{skillName:"Java",color:"red",details:"I'm skilled in Java
                   {skillName:"React",color:"#0279FD",details:"I've recently started learning React, a popular JavaScript library for building user interfaces. I've begun by creating my portfolio and exploring techniques to optimize websites for better performance. It's exciting to delve into React's component-based architecture and learn how to create dynamic, efficient web applications."},
                   {skillName:"Spring Boot",color:"#6DB33F",details:"In Spring Boot, I've built a variety of applications, including a payment link generator using a third-party API, a product service, and a music store management system. The music store system includes services for customer management, employee management, inventory tracking, and more. "}
                 ];
+let educationList = [
+  {
+    name: "Scaler School of Technology",
+    course: "BSc & Msc in Computer Science",
+    year: "2023-2027",
+    image:scaler
+  },
+  {
+    name: "BITS Pilani",
+    course: "BSc in Computer Science",
+    year: "2023-2026",
+    image:bits
+  },
+  {
+    name:"Grizzly Vidyalaya",
+    course:"Intermediate",
+    year:"2020-2022",
+    image:grizzly
+  },
+];
 
 function App() {
   return (
@@ -60,6 +83,7 @@ function App() {
           AboutMeDetails={my_details}
       />
       <SkillPage skillsMap={skillsMapArray}/>
+      <EducationPage educationList={educationList}/>
 
     </div>
   );
