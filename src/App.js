@@ -12,7 +12,7 @@ import image_generator from './assets/image-generator.jpeg';
 import music_store from './assets/music-store.jpeg';
 import snake from './assets/snake.jpg';
 import ProjectsPage from './components/ProjectsPage';
-
+import ContactMePage from './components/ContactMePage';
 
 function MyComponent() {
   const my_description = `Hi there, I'm <strong>Harsh Kumar</strong>! 
@@ -98,6 +98,34 @@ let projects = [
     image:payment
   }
 ];
+let contactDetails = [
+  {
+    name:"Email Id",
+    value:"kumar3446harsh@gmail.com",
+    message:"Hey there! Feel free to drop me an email anytime. I'll get back to you as soon as possible."
+  },
+  {
+    name:"Phone",
+    value:"+91 9142840799",
+    message:"Is it urgent ? Call me now !"
+  },
+  {
+    name:"LinkedIn",
+    value:"https://www.linkedin.com/in/harsh-kumar-patwa/",
+    message:"Why don't you give me a profile view ? Let's connect on LinkedIn!"
+  },
+  {
+    name:"Github",
+    value:"https://www.github.com/harsh-kumar-patwa",
+    message:"Please check out my GitHub profile for more projects and contributions."
+  },
+  {
+    name:"Address",
+    value:"Koderma, Jharkhand (INDIA)",
+    message:"You wouldn't find me there. Currently in Bangalore"
+  
+  }
+]
 
 function App() {
   return (
@@ -112,7 +140,7 @@ function App() {
       <SkillPage skillsMap={skillsMapArray}/>
       <EducationPage educationList={educationList}/>
       <ProjectsPage projects={projects}/>
-
+      <ContactMePage contactDetails={contactDetails}/>
     </div>
   );
 }

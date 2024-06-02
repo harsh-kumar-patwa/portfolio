@@ -9,7 +9,7 @@ function Navbar({onNavClick}){
                 <li className='navbar-item' id='skills-color' onClick={onNavClick}><a href='#skills-main-page'>Skills</a></li>
                 <li className='navbar-item' id='education-color' onClick={onNavClick}><a href='#education-page'>Education</a></li>
                 <li className='navbar-item' id='projects-color' onClick={onNavClick}><a href='#project-main-page'>Projects</a></li>
-                <li className='navbar-item' id='contact-color' onClick={onNavClick}><a href='#'>Contact</a></li>
+                <li className='navbar-item' id='contact-color' onClick={onNavClick}><a href='#contact-me-main-page'>Contact</a></li>
             </ul>
         </nav>
     )
