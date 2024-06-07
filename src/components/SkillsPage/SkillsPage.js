@@ -36,7 +36,7 @@ function SkillsPage({skillsMap}){
                     
                     {hoveredSkill && (
                         <div className="skill-details">
-                            <h2 style={{color:hoveredSkill.color,fontSize:"4vh"}} >{hoveredSkill.skillName}</h2>
+                            <h2 style={{color:hoveredSkill.color}} >{hoveredSkill.skillName}</h2>
                             <p>{hoveredSkill.details}</p>
                         </div>
                     )}

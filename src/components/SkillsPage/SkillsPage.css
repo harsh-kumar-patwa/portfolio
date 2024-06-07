@@ -50,7 +50,7 @@
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
-    height: 50vh;
+    height: fit-content;
     width: 20vw;
     padding: 20px;
     border: 2px solid #505A5A;
@@ -73,7 +73,7 @@
 .skill-details h2 {
     font-size: 1.5em;
     /* color: #b11919; */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .skill-details p {
@@ -81,5 +81,5 @@
     color: #666;
     line-height: 1.5rem;
     text-align: left;
-    height: auto;
+    /* height: auto; */
 }
