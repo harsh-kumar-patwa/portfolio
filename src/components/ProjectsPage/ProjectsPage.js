@@ -16,7 +16,7 @@ function ProjectsPage({projects}){
 function ProjectCard({project}){
     return(
         <div className="project-card"> 
-            <a href={project.link}><img src={project.image} alt={project.name} height={`100%`}></img></a>
+            <a href={project.link}><img src={project.image} alt={project.name} height={`100%`} width={`100%`}></img></a>
             <div className="project-detail">
                 <div><a href={project.link} style={{textDecoration:"none"}}>{project.name}</a></div>
             </div>
